@@ -1,0 +1,177 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+/*footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}*/
+
+/* Home Page Styles */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Destinations Page Styles */
+/* Header styles */
+/*.header-title {
+  font-size: 24px;
+  color: #333;
+  margin: 10px;
+}*/
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-list li a.active {
+  font-weight: bold;
+}
+
+/* Hero section styles */
+.hero-section {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+/* Trip Planner Page Styles */
+.trip-planner-form {
+  margin-bottom: 20px;
+}
+
+.trip-planner-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.trip-planner-form input[type="text"],
+.trip-planner-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.trip-planner-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* About Page Styles */
+.about-team {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.about-team img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.about-team h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-team p {
+  font-size: 16px;
+}
+
+/* Contact Page Styles */
+.contact-form {
+  margin-bottom: 20px;
+  
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
